@@ -1,0 +1,17 @@
+<div>
+    The code sets up an express server using the express module. Middleware
+    functions are added to the server using app.use(). Middleware functions are
+    functions that have access to the request and response objects, and can
+    perform actions such as logging, modifying the request or response objects, or
+    calling the next middleware function in the stack. The server is set up to use
+    the EJS template engine to render views. The server is set up to serve static
+    files from the "public" directory using express.static(). The server is set up
+    to use the methodOverride middleware to allow PUT and DELETE requests to be
+    made using HTML forms. The server is set up to use sessions with the
+    express-session middleware. Sessions are used to store user-specific data
+    across requests. The connect-flash middleware is used to display flash
+    messages to the user. The customerRouter is added as a route for the /admin
+    path. A 404 error message is sent if none of the other routes match the
+    request. Finally, the app object is exported for use in other modules.
+  </div>
+  
